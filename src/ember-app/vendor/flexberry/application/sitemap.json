@@ -1,0 +1,43 @@
+﻿{
+  "applicationCaption": "Test14",
+  "applicationTitle": "Test14",
+  "items": [
+    {
+      "link": null,
+      "menuName": "test14",
+      "caption": "Test14",
+      "title": "Test14",
+      "children": [
+        {
+          "link": "i-i-s-test14-город-l",
+          "menuName": null,
+          "caption": "Город",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-test14-комната-l",
+          "menuName": null,
+          "caption": "Комната",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-test14-улица-l",
+          "menuName": null,
+          "caption": "Улица",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-test14-дом-l",
+          "menuName": null,
+          "caption": "Дом",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

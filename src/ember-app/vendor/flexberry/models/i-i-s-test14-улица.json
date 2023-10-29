@@ -1,0 +1,62 @@
+﻿{
+  "name": "IISTest14Улица",
+  "modelName": "i-i-s-test14-улица",
+  "className": "Улица",
+  "nameSpace": "IIS.Test14",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "имяУлицы",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "город",
+      "relatedTo": "i-i-s-test14-город",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "УлицаE",
+      "modelName": "i-i-s-test14-улица",
+      "attrs": [
+        {
+          "name": "имяУлицы",
+          "caption": "Имя улицы",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "УлицаL",
+      "modelName": "i-i-s-test14-улица",
+      "attrs": [
+        {
+          "name": "имяУлицы",
+          "caption": "Имя улицы",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
