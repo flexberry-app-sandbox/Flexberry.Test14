@@ -50,7 +50,7 @@
         "LiquibaseSql": true,
         "Security": true,
         "AdminUser": true,
-        "ConnectionString": null
+        "ConnectionString": "Id"
       },
       "ClickHouse": {
         "DiffSql": false,
