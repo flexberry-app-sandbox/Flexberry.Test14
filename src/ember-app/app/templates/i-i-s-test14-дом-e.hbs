@@ -34,4 +34,54 @@
     }}
     {{flexberry-validationmessage error=(v-get validationModel "номерДома" "message")}}
   </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.колПодъездов
+      class=(if (v-get validationModel "колПодъездов" "isInvalid") "error")
+      label=(t "forms.i-i-s-test14-дом-e.колПодъездов-caption")
+      data-test-i-i-s-test14-дом-e-колПодъездов=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "колПодъездов" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.колЭтажей
+      class=(if (v-get validationModel "колЭтажей" "isInvalid") "error")
+      label=(t "forms.i-i-s-test14-дом-e.колЭтажей-caption")
+      data-test-i-i-s-test14-дом-e-колЭтажей=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "колЭтажей" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.улица.имяУлицы
+      class=(if (v-get validationModel.улица "имяУлицы" "isInvalid") "error")
+      label=(t "forms.i-i-s-test14-дом-e.улица.имяУлицы-caption")
+      data-test-i-i-s-test14-дом-e-улица-имяУлицы=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.улица "имяУлицы" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.улица.город.наименование
+      class=(if (v-get validationModel.улица.город "наименование" "isInvalid") "error")
+      label=(t "forms.i-i-s-test14-дом-e.улица.город.наименование-caption")
+      data-test-i-i-s-test14-дом-e-улица-город-наименование=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.улица.город "наименование" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.улица.город.плрщадьГо
+      class=(if (v-get validationModel.улица.город "плрщадьГо" "isInvalid") "error")
+      label=(t "forms.i-i-s-test14-дом-e.улица.город.плрщадьГо-caption")
+      data-test-i-i-s-test14-дом-e-улица-город-плрщадьГо=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.улица.город "плрщадьГо" "message")}}
+  </div>
 </form>

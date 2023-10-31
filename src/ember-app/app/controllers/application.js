@@ -28,25 +28,24 @@ export default Controller.extend({
             link: 'i-i-s-test14-город-l',
             caption: i18n.t('forms.application.sitemap.test14.i-i-s-test14-город-l.caption'),
             title: i18n.t('forms.application.sitemap.test14.i-i-s-test14-город-l.title'),
-            icon: 'archive',
+            icon: 'suitcase',
             children: null
           }, {
             link: 'i-i-s-test14-комната-l',
             caption: i18n.t('forms.application.sitemap.test14.i-i-s-test14-комната-l.caption'),
             title: i18n.t('forms.application.sitemap.test14.i-i-s-test14-комната-l.title'),
-            icon: 'building',
             children: null
           }, {
             link: 'i-i-s-test14-улица-l',
             caption: i18n.t('forms.application.sitemap.test14.i-i-s-test14-улица-l.caption'),
             title: i18n.t('forms.application.sitemap.test14.i-i-s-test14-улица-l.title'),
-            icon: 'table',
+            icon: 'folder',
             children: null
           }, {
             link: 'i-i-s-test14-дом-l',
             caption: i18n.t('forms.application.sitemap.test14.i-i-s-test14-дом-l.caption'),
             title: i18n.t('forms.application.sitemap.test14.i-i-s-test14-дом-l.title'),
-            icon: 'calendar',
+            icon: 'tasks',
             children: null
           }]
         }
