@@ -48,6 +48,15 @@ export let defineProjections = function (modelClass) {
   });
 
   modelClass.defineProjection('ДомL', 'i-i-s-test14-дом', {
-    номерДома: attr('Номер дома', { index: 0 })
+    номерДома: attr('Номер дома', { index: 0 }),
+    колПодъездов: attr('', { index: 1 }),
+    колЭтажей: attr('', { index: 2 }),
+    улица: belongsTo('i-i-s-test14-улица', '', {
+      имяУлицы: attr('', { index: 3 }),
+      город: belongsTo('i-i-s-test14-город', '', {
+        наименование: attr('', { index: 4 }),
+        плрщадьГо: attr('', { index: 5 })
+      }, { index: -1, hidden: true })
+    }, { index: -1, hidden: true })
   });
 };
