@@ -22,19 +22,19 @@ export default Controller.extend({
             link: 'i-i-s-test14-город-l',
             caption: i18n.t('forms.application.sitemap.test14.i-i-s-test14-город-l.caption'),
             title: i18n.t('forms.application.sitemap.test14.i-i-s-test14-город-l.title'),
-            icon: 'suitcase',
+            icon: 'building',
             children: null
           }, {
             link: 'i-i-s-test14-комната-l',
             caption: i18n.t('forms.application.sitemap.test14.i-i-s-test14-комната-l.caption'),
             title: i18n.t('forms.application.sitemap.test14.i-i-s-test14-комната-l.title'),
-            icon: 'folder open',
+            icon: 'building',
             children: null
           }, {
             link: 'i-i-s-test14-улица-l',
             caption: i18n.t('forms.application.sitemap.test14.i-i-s-test14-улица-l.caption'),
             title: i18n.t('forms.application.sitemap.test14.i-i-s-test14-улица-l.title'),
-            icon: 'suitcase',
+            icon: 'tasks',
             children: null
           }, {
             link: 'i-i-s-test14-дом-l',
